@@ -1,18 +1,22 @@
 #include<stdio.h>
 main()
 {
-	int x,y,z,ans;
+	int a,b,c;
 	
-	printf("\n Enter The Value Of X :- ");
-	scanf("%d",&x);
+	printf("\n Enter The Value Of A :: ");
+	scanf("%d",&a);
 	
-	printf("\n Enter The Value Of Y :- ");
-	scanf("%d",&y);
-	
-	printf("\n Enter The Value Of Z :- ");
-	scanf("%d",&z);
-	
-	ans = (x+y+z)*(x+y+z)*(x+y+z);
-	
-	printf("\n Answer :- %d",ans);
+	printf("\n Enter The Value Of B :: ");
+	scanf("%d",&b);
+
+	printf("\n Enter The Value Of C :: ");
+	scanf("%d",&c);
+		
+	(a>b)?
+		(a>c)?
+		printf("\n A Is Big")
+		:printf("\n C Is Big")
+	:(b>c)?
+		printf("\n B Is Big")
+		:printf("\n C Is Big");
 }
